@@ -44,34 +44,34 @@ The interactive Power BI report contains three pages:
 
 Examines crash trends, severity distribution, accident types, and DCA groups.
 
-![Road Crash Overview](dashboard/screenshots/Crash Overview & Severity.png)
+![Road Crash Overview](dashboard/screenshots/Crash%20Overview%20%26%20Severity.png)
 
 ### 2. Crash Patterns & Road Environment Analysis
 
 Explores crash patterns by day, time, road type, speed zone, and traffic control.
 
-![Crash Patterns](dashboard/screenshots/Crash Patterns & Road Environment.png)
+![Crash Patterns](dashboard/screenshots/Crash%20Patterns%20%26%20Road%20Environment.png)
 
 ### 3. Vehicle Involvement & Safety Analysis
 
 Analyses vehicle types, vehicle age, occupancy status, and their relationships with crash severity.
 
-![Vehicle Analysis](dashboard/screenshots/Vehicle Analysis.png)
+![Vehicle Analysis](dashboard/screenshots/Vehicle%20Analysis.png)
 
 
 ## Project Structure
 
 ```text
 road-accident-vehicle-analysis/
+├── dashboard/
+│   ├── road-crash-dashboard.pbix
+│   └── screenshots/
 ├── data/
 │   ├── raw/
 │   └── processed/
 ├── notebooks/
 │   ├── 01_data_profiling.ipynb
 │   └── 02_data_cleaning.ipynb
-├── dashboard/
-│   ├── road-crash-dashboard.pbix
-│   └── screenshots/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
