@@ -7,14 +7,18 @@ This project analyses road crash and vehicle data in Victoria, Australia, to exp
 
 The project includes data profiling and cleaning using Python, followed by interactive visualisation in Power BI.
 
+
+
 ## Data Sources
 
-Two datasets are used:
+This project uses two road crash datasets from Victoria, Australia:
 
 - **Accident:** Crash details, severity, casualties, dates, and road conditions.
 - **Vehicle:** Vehicle types, characteristics, occupancy, and crash involvement.
 
 The datasets are linked using `ACCIDENT_NO`.
+
+The raw datasets are included in the [`data/raw/`](data/raw/) folder, and the cleaned datasets are available in [`data/processed/`](data/processed/).
 
 ## Tools & Technologies
 
@@ -73,6 +77,7 @@ road-accident-vehicle-analysis/
 └── .gitignore
 ```
 
+
 ## How to Run
 
 1. Clone the repository.
@@ -82,11 +87,10 @@ road-accident-vehicle-analysis/
    pip install -r requirements.txt
    ```
 
-3. Download the Accident and Vehicle datasets and place them in `data/raw/`.
-4. Run the notebooks in order:
+3. Run the notebooks in order:
    - `01_data_profiling.ipynb`
    - `02_data_cleaning.ipynb`
-5. Open the Power BI report in the `dashboard/` folder.
+4. Open the Power BI report in the `dashboard/` folder.
 
 The cleaning notebook exports the processed datasets to `data/processed/`.
 

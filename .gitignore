@@ -1,12 +1,4 @@
 
-# Raw datasets
-data/raw/*
-!data/raw/.gitkeep
-
-# Processed datasets
-data/processed/*
-!data/processed/.gitkeep
-
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
